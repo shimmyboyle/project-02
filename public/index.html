@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Drawing with Sockets and p5</title>
+</head>
+<body>
+    <div id="loading-screen" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>`
+            <div class="loading-text">Loading Party Time...</div>
+        </div>
+    </div>
+    
+    <button id="bouncing-button">Touch Me</button>
+    <audio id="weird-sound" src="dj-airhorn-sound.mp3"></audio>  
+    <audio id="music" src="dogs.mp3"></audio>
+    <audio id="enya" src="enya.mp3"></audio>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js-sound/1.4.0/p5.sound.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
